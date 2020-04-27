@@ -1,0 +1,13 @@
+@import './global/reset.scss';
+@import './global/base.scss';
+@import './global/vars.scss';
+@import './global/grid.scss';
+@import './global/table.scss';
+@import './global/code.scss';
+@import './global/typography.scss';
+
+// partials
+@import './partials/navbar.scss';
+
+// pages
+@import './pages/home.scss';

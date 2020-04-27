@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+
+    tbody {
+        tr {
+            border-bottom: 1px solid $lightgray;
+
+            td {
+                padding: 1rem;
+                line-height: 1.5rem;
+                word-wrap: break-word;
+
+                a {
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-skip-ink: auto;
+                    }
+                }
+
+                &:first-child {
+                    width: 10%;
+                    padding-left: 0;
+                }
+
+                &:last-child {
+                    width: 90%;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

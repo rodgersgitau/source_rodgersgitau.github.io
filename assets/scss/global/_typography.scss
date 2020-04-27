@@ -1,0 +1,51 @@
+/* Headings */
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+a {
+    color: $primary;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
+    }
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+small {
+    font-weight: 100;
+    color: $darkgray;
+}
