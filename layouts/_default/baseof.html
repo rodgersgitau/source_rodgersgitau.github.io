@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGitau: Software Developer </title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans&display=swap">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    {{ $sass := resources.Get "scss/main.scss" }}
+    {{ $style := $sass | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        {{ partial "navbar.html" . }}
+        <main class="content-wrapper">
+            {{block "main" .}}
+            <!-- content goes here -->
+            {{ end }}
+        </main>
+    </div>
+</body>
+
+</html>
