@@ -1,0 +1,12 @@
+{{ define "main" }}
+<!-- contentStart -->
+
+{{ $meRaw := resources.Get "images/me.jpg" }}
+{{ $photoMe := $meRaw.Resize "400x" }}
+
+<h1>Aboutpage</h1>
+<div>
+    <img src="{{ $photoMe.RelPermalink }}" alt="A young guy in a tie">
+</div>
+<!-- contentEnd -->
+{{ end }}
