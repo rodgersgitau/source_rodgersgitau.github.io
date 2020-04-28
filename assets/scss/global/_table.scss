@@ -3,7 +3,7 @@ table {
 
     tbody {
         tr {
-            border-bottom: 1px solid $lightgray;
+            box-shadow: $lowShadow;
 
             td {
                 padding: 1rem;
