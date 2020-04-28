@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Text Editor",
+        "text": "Visual Studio Code",
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "title": "Terminal",
+        "text": " Tmuxinator",
+        "url": "https://github.com/tmuxinator/tmuxinator"
+    },
+    {
+        "title": "Code Font",
+        "text": "Fira Code",
+        "url": "https://github.com/tonsky/FiraCode"
+    },
+    {
+        "title": "Operating System",
+        "text": "Ubuntu 18.10",
+        "url": "https://ubuntu.com"
+    }
+]
