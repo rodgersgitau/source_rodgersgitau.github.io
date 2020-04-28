@@ -1,9 +1,20 @@
 .navbar {
-    max-width: 90vw;
-    margin: 0 auto;
+    position: relative;
     display: flex;
+    padding: 2rem;
     align-items: center;
     justify-content: space-between;
+
+    &:after {
+        position: absolute;
+        content: " ";
+        bottom: 0;
+        left: 2rem;
+        right: 2rem;
+        height: 100%;
+        z-index: -1;
+        border-bottom: 2px solid $secondary;
+    }
 
     a {
         display: block;
@@ -16,7 +27,11 @@
 
 
     .home-link {
-        font-weight: 600;
+        a {
+            span {
+                display: block;
+            }
+        }
     }
 
     .nav-menu {
@@ -59,11 +74,7 @@
 }
 
 @media (max-width: 420px) {
-
     .navbar {
-        position: sticky;
-        top: 0;
-        padding: 2rem 0 1.5rem;
         background: #fff;
         flex-direction: column;
         align-items: flex-start;
@@ -73,8 +84,6 @@
         }
 
         .nav-menu {
-            border: 2px solid #333;
-
             .nav-menu-link {
                 margin-right: .7rem;
 
@@ -83,7 +92,7 @@
                 }
 
                 &:last-child {
-                    position: fixed;
+                    position: absolute;
                     top: 1rem;
                     right: 1.2rem;
                     margin-right: 0;
@@ -94,5 +103,11 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 320px) {
+    .nav-menu-link {
+        margin-right: .5rem !important;
     }
 }
