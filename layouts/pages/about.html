@@ -1,0 +1,37 @@
+{{ define "main" }}
+<!-- contentStart -->
+{{ $tools := getJSON "/data/tools.json" }}
+{{ $meRaw := resources.Get "images/me.jpg" }}
+{{ $photoMe := $meRaw.Resize "400x" }}
+
+<div class="page aboutpage">
+    <div class="row">
+        <div class="column col-6">
+            <div class="aboutpage-text">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="column col-6">
+            <div class="aboutpage-image">
+                <img src="{{ $photoMe.RelPermalink }}" alt="Gitau standing on a balcony wearing a pink shirt paired with a grey tie and grey buttoned sweater">
+            </div>
+        </div>
+    </div>
+    <h3> My tools of the trade ...</h3>
+    <table>
+        <tbody>
+            {{ range $tools }}
+            <tr>
+                <td>{{ .title }}</td>
+                <td>
+                    <a href="{{ .url }}">
+                        {{ .text }}
+                    </a>
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</div>
+<!-- contentEnd -->
+{{ end }}

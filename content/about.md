@@ -1,26 +1,19 @@
 ---
+type: 'pages'
 title: 'about'
+layout: 'about'
 description: 'about me'
 ---
 ### A bit more about me ...
 
-I'm Rodgers M Gitau, a software developer based in Nairobi, Kenya. I specialize in building web applications that are performant, accessible and focused on the user experience.
+I'm Rodgers M Gitau, a software engineer based in Nairobi, Kenya. I specialize in building web applications that are performant, accessible and focused on the user experience.
 
-In my professional journey, I started with a regular IT Administrator job at a leading hospitality group. After 5 years of doing this, it was time for me to rekindle my passion for coding and so I took a 6 months sabbatical to checkout [Moringa School's](https://moringaschool.com/) bootcamp. Needless to say, my sabbatical ended but I never went back.
+My professional journey started with a regular IT desk job at with a leading hospitality group. During this period of about 5 years, I tried to get into coding but with so much work to do, I never actually begun. 
 
-I'm self-taught so my know-how is either by actual study or experiences that I've encountered in my career. At the start I worked mostly as freelance frontend developer but overtime, I grew frustrated with the increasing knowledge gap. I ended up joining the healthcare industry working for [Savannah](http://savannahinformatics.com/).
+Eventually I took a sabbatical leave to join a bootcamp by [Moringa School](https://moringaschool.com). Needless to say, I never came back, formally quiting after the 6 months sabbatical ended.
 
-Most of my articles here are about the Javascript eco-system, WebGl and progressive web applications. Occassionally I explore game development and some backend stuff too. I'm also a *bonafide* nerd and content about music, anime, indie builds and fancy gadgets might find its way here too.
+At the start I worked mostly as freelance frontend engineer and had some memorable clients. Overtime, I grew frustrated with the increasing knowledge gap and also wanted something a little more permanent. I ended up joining [Savannah](http://savannahinformatics.com/), a company disrupting the healthcare industry.
+
+Most of my articles here are about the Javascript eco-system, WebGl and progressive web applications. I'm also a *bonafide* nerd and content about gaming, anime, indie builds and fancy gadgets might find its way here too.
 
 In the [play](/play/) section you will find a myriad of ideas ranging from absurd to genius that I explore in my attempts to unravel mysteries or discover new things.
-
-<br/>
-
-### My tools of the trade ...
-
-|             |                                                               |
-| ----------- | --------------------------------------------------------------|
-| Text Editor | [__Visual Studio Code__](https://code.visualstudio.com)      |
-| Terminal    | [__Tmuxinator__](https://github.com/tmuxinator/tmuxinator)    |
-| Code Font   | [__Fira Code__](https://github.com/tonsky/FiraCode)           |
-| Computer    | 7th Gen Lenovo running [__Ubuntu 18.10__](https://ubuntu.com) |

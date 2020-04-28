@@ -89,7 +89,6 @@ video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    box-sizing: border-box;
     vertical-align: baseline;
 }
 
@@ -149,4 +148,10 @@ q {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
