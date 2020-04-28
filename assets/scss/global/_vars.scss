@@ -6,8 +6,12 @@ $purple:#652454;
 $darkpurple:#321325;
 $lightpurple:#e5cfd5;
 
+$overlay: #483F58;
+$whitesmoke: #f7f7f7;
+$blackshade: #333;
+
 $primary: $purple;
 $secondary: $darkpurple;
 $alternative: $lightpurple;
 
-$lowShadow: 0 4px 2px -2px #333;
+$lowShadow: 0 1px 0 rgba(0, 0, 0, .1);
