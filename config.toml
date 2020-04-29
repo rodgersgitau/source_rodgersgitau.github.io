@@ -2,61 +2,59 @@ baseURL = "https://rodgersgitau.netlify.app"
 languageCode = "en-us"
 title = "Rodgers M Gitau"
 
+[params]
+  stack = [
+    'React', 
+    'Angular',
+    'NodeJS',
+    'Jamstack'
+  ]
+
 [markup]
-
-[markup.goldmark]
-
-[markup.goldmark.extensions]
-definitionList = true
-footnote = true
-linkify = true
-strikethrough = true
-table = true
-taskList = true
-typographer = true
-
-[markup.goldmark.parser]
-attribute = true
-autoHeadingID = true
-autoHeadingIDType = "github"
-
-[markup.goldmark.renderer]
-hardWraps = false
-unsafe = false
-xHTML = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+    [markup.goldmark.parser]
+    attribute = true
+    autoHeadingID = true
+    autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = false
+    xHTML = false
 
 [menu]
-
   [[menu.main]]
     url = "/"
     name = "home"
     weight= 1
     identifier = "home"
-
   [[menu.main]]
     url = "/about"
     name = "about"
     weight= 2
     identifier = "info"
-
   [[menu.main]]
     url = "/work"
     name = "work"
     weight= 3
     identifier = "portfolio"
-
   [[menu.main]]
     url = "/play"
     name = "play"
     weight= 4
     identifier = "experiments"
-
   [[menu.main]]
     url = "/articles"
     name = "articles"
     weight= 5
     identifier = "blog"
-
   [[menu.main]]
     url = "/hire"
     name = "hire me"
