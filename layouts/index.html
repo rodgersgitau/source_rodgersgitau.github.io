@@ -1,0 +1,24 @@
+{{ define "main" }}
+<!-- contentStart -->
+{{ $meRaw := resources.Get "images/background.jpg" }}
+{{ $techStack := .Site.Params.Stack }}
+{{ $bgPhoto := $meRaw.Resize "400x" }}
+
+<div class="page homepage">
+    <section class="landing">
+        <div class="landing-image">
+            <img src="{{ $bgPhoto.RelPermalink }}" alt="open text editor showing some code" />
+        </div>
+        <div class="landing-tagline">
+            <h1>Hi! I'm Gitau.</h1>
+            <h2>I enjoy building & tinkering with web applications.</h2>
+            <p><small>{{ delimit $techStack " | " }}</small></p>
+            <a class="btn btn-primary" href="/hire">
+                Open For Freelance Work
+            </a>
+        </div>
+    </section>
+</div>
+
+<!-- contentEnd -->
+{{ end }}
