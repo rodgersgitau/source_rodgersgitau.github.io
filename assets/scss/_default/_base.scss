@@ -3,8 +3,8 @@ html {
         color: #333;
         width: 100%;
         height: 100%;
-        line-height: 1.5rem;
         font-size: calc(0.9rem + 0.25vw);
+        line-height: calc(1.5rem + 0.25vh);
         font-family: 'Fira Sans', sans-serif;
     }
 
@@ -17,4 +17,17 @@ html {
             padding: 2rem;
         }
     }
+}
+
+@media (max-width: 768px) {
+    html {
+        .site-wrapper {
+            max-width: 100vw;
+
+            .page {
+                padding: 1.5rem 1rem;
+            }
+        }
+    }
+
 }

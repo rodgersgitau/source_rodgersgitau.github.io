@@ -1,10 +1,11 @@
-@import './global/reset.scss';
-@import './global/base.scss';
-@import './global/vars.scss';
-@import './global/grid.scss';
-@import './global/table.scss';
-@import './global/code.scss';
-@import './global/typography.scss';
+@import './_default/reset.scss';
+@import './_default/base.scss';
+@import './_default/vars.scss';
+@import './_default/grid.scss';
+@import './_default/code.scss';
+@import './_default/table.scss';
+@import './_default/buttons.scss';
+@import './_default/typography.scss';
 
 // partials
 @import './partials/navbar.scss';
