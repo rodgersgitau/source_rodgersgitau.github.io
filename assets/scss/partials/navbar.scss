@@ -65,6 +65,9 @@
 
 @media (max-width:768px) {
     .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 999;
         padding: 1.5rem 1rem;
         background: #fff;
         flex-direction: column;
@@ -84,8 +87,8 @@
 
                 &:last-child {
                     position: absolute;
-                    top: 1rem;
-                    right: 1.2rem;
+                    top: 1.5rem;
+                    right: 1rem;
                     margin-right: 0;
 
                     a {
